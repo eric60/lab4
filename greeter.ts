@@ -1,1 +1,7 @@
-// Eric Shi 2020
+function greeter(person : string) {
+    return "Hello, " + person;
+}
+
+let user = "hello"
+
+document.body.textContent = greeter(user);
